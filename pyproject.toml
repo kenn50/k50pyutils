@@ -12,7 +12,8 @@ authors = [{name = "Kevin Mark Lock", email = "kevin.lock03@gmail.com"}]
 dependencies = [
     "pandas",
     "xlwings",
-    "numpy"
+    "numpy",
+    "duckdb"
 ]
 
 [tool.setuptools.packages.find]

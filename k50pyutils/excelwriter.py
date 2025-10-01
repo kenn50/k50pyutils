@@ -32,6 +32,7 @@ class ExcelWriter:
 
         # Auto-fit columns for readability
         sheet.autofit("columns")
+        return df
 
     def get(self, sheet_name: str = None) -> pd.DataFrame:
         """Return the first Excel Table in the given sheet as a DataFrame.
@@ -49,3 +50,6 @@ class ExcelWriter:
         # ✅ Read as DataFrame (keep index if present in Excel table)
         df = table.range.options(pd.DataFrame, index=False, expand="table").value
         return df
+
+
+

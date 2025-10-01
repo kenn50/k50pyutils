@@ -1,0 +1,4 @@
+pandas
+xlwings
+numpy
+duckdb
