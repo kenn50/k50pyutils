@@ -11,7 +11,7 @@ license = {text = "MIT"}
 authors = [{name = "Kevin Mark Lock", email = "kevin.lock03@gmail.com"}]
 dependencies = [
     "pandas",
-    "xlwings"
+    "xlwings",
     "numpy"
 ]
 
