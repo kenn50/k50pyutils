@@ -1,18 +1,18 @@
 [build-system]
-requires = [setuptools=61.0]
-build-backend = setuptools.build_meta
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = k50pyutils
-version = 0.1.0
-description = Personal collection of Python helper functions
-readme = README.md
-license = {text = MIT}
-authors = [{name = Your Name, email = you@example.com}]
+name = "k50pyutils"
+version = "0.1.0"
+description = "Personal collection of Python helper functions"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "you@example.com"}]
 dependencies = [
-    pandas,
-    xlwings
+    "pandas",
+    "xlwings"
 ]
 
 [tool.setuptools.packages.find]
-where = [.]
+where = ["."]
