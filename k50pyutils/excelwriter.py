@@ -25,7 +25,7 @@ class ExcelWriter:
         sheet["A1"].expand().clear()
 
         # ✅ Write DataFrame with index
-        sheet["A1"].options(index=True).value = df
+        sheet["A1"].options(index=False).value = df
 
         # Add Excel Table object
         sheet.tables.add(sheet["A1"].expand())
@@ -47,5 +47,5 @@ class ExcelWriter:
         table = sheet.tables[0]
 
         # ✅ Read as DataFrame (keep index if present in Excel table)
-        df = table.range.options(pd.DataFrame, index=True, expand="table").value
+        df = table.range.options(pd.DataFrame, index=False, expand="table").value
         return df
