@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Personal collection of Python helper functions"
 readme = "README.md"
 license = {text = "MIT"}
-authors = [{name = "Kevin Mark Lock, email = "kevin.lock03@gmail.com"}]
+authors = [{name = "Kevin Mark Lock", email = "kevin.lock03@gmail.com"}]
 dependencies = [
     "pandas",
     "xlwings"
