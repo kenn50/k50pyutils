@@ -1,8 +1,0 @@
-pyproject.toml
-k50pyutils/__init__.py
-k50pyutils/excelwriter.py
-k50pyutils.egg-info/PKG-INFO
-k50pyutils.egg-info/SOURCES.txt
-k50pyutils.egg-info/dependency_links.txt
-k50pyutils.egg-info/requires.txt
-k50pyutils.egg-info/top_level.txt
