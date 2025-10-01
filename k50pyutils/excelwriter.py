@@ -1,5 +1,6 @@
 import pandas as pd
 import xlwings as xw
+import numpy as np
 
 class ExcelWriter:
     def __init__(self, path: str):
