@@ -15,13 +15,12 @@ pip install --upgrade git+https://github.com/kenn50/k50pyutils.git
 
 ## Quickstart
 
-By convention, import the Excel helper as **`EW`** and instantiate it as **`ew`**:
 
 ```python
 import pandas as pd
-from k50pyutils import ExcelWriter as EW
+from k50pyutils import ExcelWriter
 
-ew = EW("test.xlsx")  # open or attach to workbook
+ew = ExcelWriter("test.xlsx")  # open or attach to workbook
 ```
 
 ### Write a DataFrame (includes index)
@@ -48,19 +47,6 @@ If you omit `sheet_name` in either call, the **first sheet** (index 0) is used.
 
 
 
-## Import Conventions
-
-We strongly recommend the following convention in your projects:
-
-```python
-from k50pyutils import ExcelWriter as EW
-
-ew = EW("test.xlsx")
-```
-
-This keeps your code concise and consistent across notebooks and scripts.
-
----
 
 ## Requirements
 
